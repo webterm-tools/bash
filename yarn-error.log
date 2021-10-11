@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\TNS\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add webpack webpack-cli --dev
+
+PATH: 
+  C:\Users\TNS\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\TNS\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files (x86)\Certbot\bin;C:\nginx-1.19.6;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\Calibre2;C:\Python\Python39;C:\Users\TNS\.windows-build-tools\python27;C:\Users\TNS\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\.bin;C:\Users\TNS\AppData\Roaming\npm\node_modules\node_modules\.bin;C:\Users\TNS\AppData\Roaming\npm\node_modules\.bin;C:\Users\TNS\AppData\Roaming\node_modules\.bin;C:\Users\TNS\AppData\node_modules\.bin;C:\Users\TNS\node_modules\.bin;C:\Users\node_modules\.bin;C:\node_modules\.bin;C:\Users\TNS\AppData\Roaming\npm\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Users\TNS\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\TNS\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files (x86)\Certbot\bin;C:\nginx-1.19.6;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Python\Python39\Scripts;C:\Python;C:\Python27;C:\Users\TNS\AppData\Local\Microsoft\WindowsApps;C:\Users\TNS\AppData\Roaming\npm;C:\go-ipfs;C:\Users\TNS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;C:\Users\TNS\.dbx-tools;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bash-js: Not found
+      at Request.params.callback [as _callback] (C:\Users\TNS\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66988:18)
+      at Request.self.callback (C:\Users\TNS\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Users\TNS\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Users\TNS\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "@web-term-tools/bash",
+    "version": "0.0.1",
+    "description": "Bashjs wrapper for the browser",
+    "author": {
+      "name": "Sahid",
+      "email": "sahid.miller@gmail.com"
+    },
+    "files": [
+      "dist"
+    ],
+    "devDependencies": {
+      "bash-js": "0.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,31 @@
+{
+  "name": "@webterm-tools/bash",
+  "version": "0.0.1",
+  "description": "Bashjs wrapper for the browser",
+  "author": {
+    "name": "Sahid",
+    "email": "sahid.miller@gmail.com"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "bash-js": "https://sahidmiller@github.com/SahidMiller/bash-js",
+    "copy-webpack-plugin": "^9.0.1",
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "suckless": {
+    "main": {
+      "./bash": "./dist/bash.js",
+      "./bash-interpreter": "./dist/bash-interpreter.js"
+    },
+    "node_modules": {
+      "bash-parser": "0.0.1",
+      "cash": "^0.8.0",
+      "escape-string-regexp": "^5.0.0",
+      "executable": "^4.1.1",
+      "sed-lite": "^0.8.4"
+    }
+  }
+}
