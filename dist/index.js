@@ -1,6 +1,5 @@
 const readline = require("readline");
 const { Readable } = require("stream");
-const completeExecutables = require("./src/utils/complete-executables");
 const BashInterpreter = require("./src/bash-interpreter");
 
 //Might not be needed so can't throw
@@ -72,11 +71,6 @@ function createPersistentBashInstance() {
     crlfDelay: Infinity,
     escapeCodeTimeout: 500,
     tabSize: 8,
-    completer: (line) => {
-      //TODO God willing: parse but don't interpret, instead, check if it's the first word or not
-      //TODO God willing: use cwd to match files
-      return completeExecutables(line)
-    },
     terminal: true
   })
   
