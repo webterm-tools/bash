@@ -158,7 +158,7 @@ module.exports = class BashInterpreter {
         }
 
         //TODO God willing: basically any command could work here, God willing; possibly pass in stdin for some
-        const result = cash[command](params);
+        const result = cash(command + " " + params);
         
         stdout = new Readable({
           read() {}

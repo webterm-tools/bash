@@ -306,14 +306,13 @@ balanced-match@^1.0.0:
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
 
-"bash-js@https://sahidmiller@github.com/SahidMiller/bash-js":
+bash-js@SahidMiller/bash-js:
   version "0.0.1"
-  resolved "https://sahidmiller@github.com/SahidMiller/bash-js#baf10ae062286c0d2eca5672be0e6826ceb68ba3"
+  resolved "https://codeload.github.com/SahidMiller/bash-js/tar.gz/f26f2e72cbeff090fb3c5b5e7dce2c3fecdae673"
   dependencies:
     bash-parser SahidMiller/bash-parser
     cash "^0.8.0"
     escape-string-regexp "^5.0.0"
-    executable "^4.1.1"
     sed-lite "^0.8.4"
 
 bash-parser@SahidMiller/bash-parser:
@@ -625,13 +624,6 @@ execa@^5.0.0:
     onetime "^5.1.2"
     signal-exit "^3.0.3"
     strip-final-newline "^2.0.0"
-
-executable@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/executable/-/executable-4.1.1.tgz#41532bff361d3e57af4d763b70582db18f5d133c"
-  integrity sha512-8iA79xD3uAch729dUG8xaaBBFGaEa0wdD2VkYLFHwlqosEj/jT66AzcreRDSgV7ehnNLBW2WR5jIXwGKjVdTLg==
-  dependencies:
-    pify "^2.2.0"
 
 exit-hook@^1.0.0:
   version "1.1.1"

@@ -78,6 +78,7 @@ function createPersistentBashInstance() {
     //Should assume this might take some time, God willing. Only prompt after.
     try {
       readlineInterface.pause();
+      process.stdin.resume();
 
       execute(line, () => {
         //TODO God willing: fake event loop by tracking streams/events/process/setTimeout/setInterval/process.nextTick/http/fs/async and generators?

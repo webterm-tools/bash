@@ -10,7 +10,7 @@
     "dist"
   ],
   "devDependencies": {
-    "bash-js": "https://sahidmiller@github.com/SahidMiller/bash-js",
+    "bash-js": "SahidMiller/bash-js",
     "copy-webpack-plugin": "^9.0.1",
     "webpack": "^5.57.1",
     "webpack-cli": "^4.8.0"
